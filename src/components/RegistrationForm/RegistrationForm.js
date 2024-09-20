@@ -19,7 +19,7 @@ function RegistrationForm(props) {
             [id] : value
         }))     
     }  
-    console.log("url", API_BASE_URL)   
+    // console.log("url", API_BASE_URL)   
     const sendDetailsToServer = () => {
      if(state.email.length && state.password.length) {
      props.showError(null);
